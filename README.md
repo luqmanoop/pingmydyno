@@ -1,11 +1,14 @@
-# pingmydyno
-
-> Keep Heroku dynos awake forever ☕️
-
-[![License:
-MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs
-Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+<div align="center">
+	<img src="img/sleeping-dyno.gif">
+	<h1 style="font-weight:bold;">pingmydyno</h1>
+	<p>
+		<b>Keep Heroku dynos awake forever ☕️</b>
+	</p>
+    <p>
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg">
+    <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square">
+    </p>
+</div>
 
 ## Why?
 
