@@ -4,7 +4,7 @@ import { terser } from 'rollup-plugin-terser';
 import typescript from 'rollup-plugin-typescript';
 import pkg from './package.json';
 
-const sourcemap = false;
+const sourcemap = true;
 
 export default {
   input: 'lib/index.ts',
