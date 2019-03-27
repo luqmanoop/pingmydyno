@@ -116,7 +116,7 @@ Required: `no`
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://akhilo.me"><img src="https://avatars2.githubusercontent.com/u/15332525?v=4" width="100px;" alt="Kizito Akhilome"/><br /><sub><b>Kizito Akhilome</b></sub></a><br /><a href="https://github.com/codeshifu/pingmydyno/commits?author=akhilome" title="Code">💻</a></td></tr></table>
+<table><tr><td align="center"><a href="https://akhilo.me"><img src="https://avatars2.githubusercontent.com/u/15332525?v=4" width="100px;" alt="Kizito Akhilome"/><br /><sub><b>Kizito Akhilome</b></sub></a><br /><a href="https://github.com/codeshifu/pingmydyno/commits?author=akhilome" title="Code">💻</a></td><td align="center"><a href="https://twitter.com/codeshifu"><img src="https://avatars0.githubusercontent.com/u/5154605?v=4" width="100px;" alt="Luqman Olushi O."/><br /><sub><b>Luqman Olushi O.</b></sub></a><br /><a href="https://github.com/codeshifu/pingmydyno/issues?q=author%3Acodeshifu" title="Bug reports">🐛</a> <a href="https://github.com/codeshifu/pingmydyno/commits?author=codeshifu" title="Code">💻</a> <a href="https://github.com/codeshifu/pingmydyno/commits?author=codeshifu" title="Documentation">📖</a> <a href="#maintenance-codeshifu" title="Maintenance">🚧</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
