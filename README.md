@@ -112,22 +112,13 @@ Required: `no`
 | onSuccess    | function              | ( ) => null | callback function called when a ping is successful   |
 | onFailure    | function              | ( ) => null | callback function called when `maxRetry` ping failed |
 
-## Contributing
-
-1. Fork the repo
-2. Create your feature branch (`git checkout -b my-awesome-feature`)
-3. Add your awesome feature
-4. Commit your changes (`git commit -am 'Awesome feature added'`)
-5. Push to the branch (`git push origin my-awesome-feature`)
-6. Submit a Pull Request
-
-## License
-
-This project is license under
-[MIT](https://github.com/codeshifu/pingmydyno/blob/master/LICENSE)
-
 ## Contributors
 
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table><tr><td align="center"><a href="https://akhilo.me"><img src="https://avatars2.githubusercontent.com/u/15332525?v=4" width="100px;" alt="Kizito Akhilome"/><br /><sub><b>Kizito Akhilome</b></sub></a><br /><a href="https://github.com/codeshifu/pingmydyno/commits?author=akhilome" title="Code">💻</a></td></tr></table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -139,3 +130,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 This project follows the
 [all-contributors](https://github.com/all-contributors/all-contributors)
 specification. Contributions of any kind welcome!
+
+## License
+
+This project is license under
+[MIT](https://github.com/codeshifu/pingmydyno/blob/master/LICENSE)
