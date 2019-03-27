@@ -10,7 +10,7 @@ export interface Config {
 }
 
 export const DEFAULT_PING_INTERVAL = 60 * 20 * 1000; // 20mins
-export const MAX_PING_INTERVAL = 60 * 30 * 1000;
+export const MAX_PING_INTERVAL = 60 * 25 * 1000; // 25 mins
 export const MAX_RETRY = 2;
 
 export const defaultConfig: Config = {
