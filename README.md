@@ -2,15 +2,19 @@
 
 > Keep Heroku dynos awake forever ☕️
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License:
+MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs
+Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 ## Why?
 
 Heroku (free) dynos are great for hosting apps and showing them off to
-your boss/friends or potential employer. The downside is, your app
+your boss/friends or potential employer. The downside, however, is that your app
 will fall asleep 😴 if it doesn't receive any web traffic within a 30-minute
-window. `pingmydyno` aims to solve this by making sure your dyno never fall
-asleep.
+window.
+
+`pingmydyno` solves this by pinging your server periodically so it never falls asleep.
 
 ## Features
 
@@ -61,6 +65,7 @@ async () => {
 ```
 
 With Koa.js
+
 ```javascript
 const Koa = require('koa');
 const pingmydyno = require('pingmydyno');
@@ -94,10 +99,10 @@ Type: `Object`
 
 Required: `no`
 
-| object       | value                 | default    | description                                          |
-| ------------ | --------------------- | ---------- | ---------------------------------------------------- |
-| pingInterval | number (milliseconds) | 1200000    | interval between the next ping                       |
-| maxRetry     | number                | 2          | retry times when ping fail                           |
+|              | value                 | default     | description                                          |
+| ------------ | --------------------- | ----------- | ---------------------------------------------------- |
+| pingInterval | number (milliseconds) | 1200000     | interval between the next ping                       |
+| maxRetry     | number                | 2           | retry times when ping fail                           |
 | onSuccess    | function              | ( ) => null | callback function called when a ping is successful   |
 | onFailure    | function              | ( ) => null | callback function called when `maxRetry` ping failed |
 
