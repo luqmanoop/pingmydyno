@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "commonjs",
-    "declaration": true,
-    "outDir": "lib",
-    "strict": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "baseUrl": "./",
+    "declaration": false,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "target": "esnext"
   }
 }
