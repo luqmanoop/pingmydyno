@@ -41,7 +41,6 @@ const app = express();
 ...
 
 app.listen(PORT, () => {
-    console.log('server running');
     pingmydyno('https://myapp.herokuapp.com');
 });
 
@@ -57,9 +56,26 @@ const server = Hapi.server({ port, host });
 
 async () => {
   await server.start();
-  console.log('server running');
   pingmydyno('https://myapp.herokuapp.com');
 };
+```
+
+With Koa.js
+```javascript
+const Koa = require('koa');
+const pingmydyno = require('pingmydyno');
+
+const app = new Koa();
+const url = process.env.APP_URL;
+
+...
+
+app.listen(3000).on('listening', () => {
+    pingmydyno(url, {
+        pingInterval: 60 * 30 * 1000, // ping every 30mins
+        onFailure: () => { // logger }
+    })
+})
 ```
 
 ## APIs
