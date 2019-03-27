@@ -32,7 +32,7 @@
 		"bundle": "npm-run-all clean rollup",
 		"clean": "rimraf build dist",
 		"dev": "node build/index.js",
-		"release": "np",
+		"release": "npm run rollup && np",
 		"rollup": "rollup -c",
 		"start": "npm-run-all clean build dev"
 	},
