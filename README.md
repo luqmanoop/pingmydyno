@@ -7,6 +7,7 @@
     <p>
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg">
     <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square">
+    <img alt="All contributors" src="https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square">
     </p>
 </div>
 
@@ -124,3 +125,17 @@ Required: `no`
 
 This project is license under
 [MIT](https://github.com/codeshifu/pingmydyno/blob/master/LICENSE)
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table><tr><td align="center"><a href="https://twitter.com/codeshifu"><img src="https://avatars0.githubusercontent.com/u/5154605?v=4" width="100px;" alt="Luqman Olushi O."/><br /><sub><b>Luqman Olushi O.</b></sub></a><br /><a href="https://github.com/codeshifu/pingmydyno/commits?author=codeshifu" title="Code">💻</a> <a href="https://github.com/codeshifu/pingmydyno/commits?author=codeshifu" title="Documentation">📖</a> <a href="#example-codeshifu" title="Examples">💡</a> <a href="#maintenance-codeshifu" title="Maintenance">🚧</a></td></tr></table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the
+[all-contributors](https://github.com/all-contributors/all-contributors)
+specification. Contributions of any kind welcome!
