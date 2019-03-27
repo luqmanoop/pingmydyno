@@ -1,6 +1,6 @@
 {
 	"name": "pingmydyno",
-	"version": "1.4.0",
+	"version": "1.5.0",
 	"description": "Keep Heroku dynos awake forever",
 	"keywords": [
 		"dyno",
@@ -26,6 +26,7 @@
 	"main": "dist/pingmydyno.js",
 	"module": "dist/pingmydyno.es.js",
 	"scripts": {
+		"add-contributor": "all-contributors add",
 		"build": "babel lib --out-dir build --extensions .ts",
 		"bundle": "npm-run-all clean rollup",
 		"clean": "rimraf build dist",
@@ -46,6 +47,7 @@
 		"@babel/preset-typescript": "7.3.3",
 		"@typescript-eslint/eslint-plugin": "1.5.0",
 		"@typescript-eslint/parser": "1.5.0",
+		"all-contributors-cli": "6.2.0",
 		"eslint": "5.15.3",
 		"eslint-config-airbnb-base": "13.1.0",
 		"eslint-plugin-import": "2.16.0",
