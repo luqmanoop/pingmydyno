@@ -28,7 +28,7 @@ npm install pingmydyno
 
 # or using yarn
 
-yarn install pingmydyno
+yarn add pingmydyno
 ```
 
 ## Usage
@@ -78,7 +78,9 @@ const url = process.env.APP_URL;
 app.listen(3000).on('listening', () => {
     pingmydyno(url, {
         pingInterval: 60 * 30 * 1000, // ping every 30mins
-        onFailure: () => { // logger }
+        onFailure() {
+            // logger
+        }
     })
 })
 ```
