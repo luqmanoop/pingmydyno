@@ -81,7 +81,7 @@ const url = process.env.APP_URL;
 
 app.listen(3000).on('listening', () => {
     pingmydyno(url, {
-        pingInterval: 60 * 30 * 1000, // ping every 30mins
+        pingInterval: 60 * 15 * 1000, // ping every 15mins
         onFailure() {
             // logger
         }
@@ -107,7 +107,7 @@ Required: `no`
 
 |              | value                 | default     | description                                          |
 | ------------ | --------------------- | ----------- | ---------------------------------------------------- |
-| pingInterval | number (milliseconds) | 1200000     | interval between the next ping                       |
+| pingInterval | number (milliseconds) | 1200000     | interval between the next ping (max = 25mins)        |
 | maxRetry     | number                | 2           | retry times when ping fail                           |
 | onSuccess    | function              | ( ) => null | callback function called when a ping is successful   |
 | onFailure    | function              | ( ) => null | callback function called when `maxRetry` ping failed |
